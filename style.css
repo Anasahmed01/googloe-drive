@@ -50,3 +50,55 @@ a{
     text-decoration: none;
     color: black;
 }
+/* #left-menu{
+    visibility: hidden;
+}
+.logo a:visited{
+    visibility: visible;
+} */
+#left-menu{
+    border: 2px solid lightgray;
+    width: calc(20vw);
+    height: calc(89vh);
+}
+button{
+    border-radius: 10px;
+    border: none;
+    margin: 0px 0px 0px 30px;
+}
+
+.btn{
+    border-right: 2px solid lightgray;
+    width: calc(20vw);
+}
+.main{
+    display: flex;
+}
+.nav2 a{
+    padding: 2px 60px 2px 60px;
+}
+.nav2{
+    border-bottom: 2px solid lightgray;
+    width: calc(80vw);
+}
+.nav2 a:hover{
+    border: 3px solid red ;
+    border-radius: 10px;
+    font-size:x-large;
+}
+.right{
+    float: right;
+}
+samp{
+    font-family:'Times New Roman', Times, serif ;
+}
+.mail{
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid lightgray;
+    padding: 5px 5px 5px 5px ;
+}
+.mail:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    font-size: larger;
+}
